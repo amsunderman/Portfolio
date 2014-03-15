@@ -198,8 +198,8 @@ img { border: 0; max-width: 100%; }
 	background-size: 100% 100%;
 }
 /*---end-top-slider----*/
-/***************start-service************/
-.service-grids{
+/***************start-skills************/
+.skills-grids{
 	margin:5em 0;
 }
 .middle-grids {
@@ -266,9 +266,9 @@ img { border: 0; max-width: 100%; }
 	   background: #296E6F;
         text-decoration:none;
 }
-/***************end-servivice************/
-/***************start-portfolio************/
-.portfolio_main{
+/***************end-skills************/
+/***************start-documents************/
+.documents{
 	background: #eee;
 }
 .heading_h {
@@ -292,6 +292,7 @@ img { border: 0; max-width: 100%; }
 	cursor:pointer;
 	width: 30%;
 	margin-right:3.333%;
+	margin-bottom:3.333%;
 	float: left;
 }
 .gallerylist img {
@@ -336,13 +337,14 @@ img { border: 0; max-width: 100%; }
 	-o-transition: 0.9s;
 	transition: 0.9s;
 }
-.gallerylist-wrapper:hover span{
-	opacity: 1;	
-}
-.gallerylist-wrapper  a span img{
+.gallerylist-wrapper:  a span img{
 	width:106px;
 	height:106px;
 	padding: 12% 0%;
+}
+.gallerlist-wrapper:hover span img{
+	opacity: .8;
+	
 }
 #gallerylist1
 {
@@ -373,7 +375,7 @@ img { border: 0; max-width: 100%; }
         text-decoration:none; 
 }
 
-/**********end-portfolio********/
+/**********end-documents********/
 /**********team************/
 .team
 {
@@ -506,12 +508,6 @@ color:#C0B9CD;
  	background-size: 100% 100%;
 	
 }	
-.form{
-	float: right;
-	width: 49%;
-	margin: 2em 0;
-	display: block;
-}
 .para-contact {
 	float:left;
 	display: block;
@@ -927,16 +923,16 @@ li.facebook a span:hover {
 	opacity:0.8;
 }
 
-li.twitter a span {
+li.linkedin a span {
 	background-position:-108px -54px ;
 }
-li.twitter a span:hover {
+li.linkedin a span:hover {
 	opacity:0.8;
 }
-li.google a span {
+li.github a span {
 	background-position: -59px -54px;
 }
-li.google a span:hover {
+li.github a span:hover {
 	opacity:0.8;
 }
 .button input[type="submit"],.send_button input[type="submit"] {
@@ -1199,6 +1195,7 @@ ul.sidebar_1 li {
 }
 .plus a span
 {
+
 	background:url(../images/spriteimg.png) -187px -11px;
 }
 .desc
@@ -1705,6 +1702,7 @@ ul.sidebar_1 li {
 	margin-right: 1em;
 	}
 	.para_2 {
+
 	display: none;
 	}
 	.pages li:nth-child(9) {
@@ -1880,7 +1878,7 @@ ul.sidebar_1 li {
 	.grid_2_page {
 	padding: 1em 0em;
 	}
-	.service-grids {
+	.skills-grids {
 	margin: 2em 0;
 	}
 	.button_1 {
@@ -1908,3 +1906,4 @@ ul.sidebar_1 li {
 	padding-top: 30px;
 	}
 }
+
